@@ -5,10 +5,15 @@ chsh -s $(which zsh)
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)" &&
 
+
 # terminals
 sudo add-apt-repository ppa:gnome-terminator &&
 sudo apt-get update &&
 sudo apt-get install terminator &&
+
+git clone git@github.com:Guake/guake.git &&
+./dev.sh --install &&
+
 
 # nvm and node.js
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.6/install.sh | bash &&
