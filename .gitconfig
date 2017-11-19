@@ -1,0 +1,50 @@
+[user]
+  name = John Doe
+  email = john.doe@domain.com
+
+[alias]
+  ft = fetch
+  ftp = fetch -p
+  st = status
+  ci = commit
+  cim = commit -m
+  ciam = commit -a -m
+  cp = cherry-pick
+  rb = rebase
+  rbi = rebase -i
+  rbm = rebase origin/master
+  unstage = reset HEAD
+  uncommit = reset --soft HEAD^
+  br = branch -v
+  bra = branch -a
+  co = checkout
+  cob = checkout -B
+  df = diff
+  l = log --decor --graph
+  lg = log --stat --decor --graph
+  up = pull --rebase origin master
+  dc = diff --cached
+  ph = push origin HEAD
+  phf = push origin HEAD -f
+
+[color]
+  ui = auto
+
+[color "branch"]
+  current = yellow reverse
+  local = yellow
+  remote = green
+
+[color "diff"]
+  meta = yellow bold
+  frag = magenta bold
+  old = red bold
+  new = green bold
+
+[color "status"]
+  added = yellow
+  changed = green
+  untracked = cyan
+
+[core]
+  editor = vim
