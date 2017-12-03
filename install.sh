@@ -1,7 +1,7 @@
 sudo apt-get install  curl  vim  ssh  git-core  xclip  sublime-text  build-essential  openssl  libssl-dev  ia32-libs &&
 
 sudo apt-get install zsh &&
-chsh -s $(which zsh)
+chsh -s $(which zsh) &&
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)" &&
 
