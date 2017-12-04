@@ -4,7 +4,7 @@ sudo apt-get install zsh &&
 chsh -s $(which zsh) &&
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)" &&
-
+curl -o - https://raw.githubusercontent.com/denysdovhan/spaceship-zsh-theme/master/install.zsh | zsh &&
 
 # terminals
 sudo add-apt-repository ppa:gnome-terminator &&
