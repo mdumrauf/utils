@@ -23,6 +23,9 @@ nvm install 6 &&
 git clone git://github.com/amix/vimrc.git ~/.vim_runtime &&
 sh ~/.vim_runtime/install_awesome_vimrc.sh &&
 
+# use kvm for android emulator (runs better)
+sudo apt-get install qemu-kvm libvirt-bin ubuntu-vm-builder bridge-utils ia32-libs-multiarch &&
+
 # rbenv and ruby
 git clone https://github.com/sstephenson/rbenv.git ~/.rbenv &&
 echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.zshrc &&
