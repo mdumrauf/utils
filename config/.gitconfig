@@ -22,7 +22,7 @@
   cob = checkout -B
   df = diff
   l = log --decor --graph
-  lg = log --stat --decor --graph
+  lg = log --stat --decorate --graph
   up = pull --rebase origin master
   dc = diff --cached
   ph = push origin HEAD
