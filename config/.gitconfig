@@ -21,7 +21,7 @@
   co = checkout
   cob = checkout -B
   df = diff
-  l = log --decor --graph
+  l = log --decorate --graph
   lg = log --stat --decorate --graph
   up = pull --rebase origin master
   dc = diff --cached
